@@ -1,0 +1,84 @@
+html {box-sizing: border-box;}
+*, *::before, *::after {box-sizing:inherit;}
+
+
+
+body {
+    background: #529acd;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    font-size: 14px;
+    word-wrap: break-word;
+    color: #eaeaea;
+}
+label{
+    margin-bottom: -15px;
+    font-size: 12px;
+}
+::placeholder {
+    color: #40637b;
+    font-style: italic;
+}
+
+input {
+    background:  transparent;
+    border: solid 1px white;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+    margin: 0px;
+}
+
+input:focus {
+    border: solid black 1px;
+    color:white;
+  }
+
+  select {
+        background:  transparent;
+        border: solid 1px white;
+        color: white;
+        font-size: 14px;
+        width: 100%;
+
+}
+
+textarea{
+    background:  transparent;
+    border: solid 1px white;
+    color: black;
+    width: 100%;
+
+}
+
+form {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+
+.left {
+    display:flex;
+    flex-direction: column;
+    padding-right: 25px;
+
+    justify-content: space-between;
+
+}
+
+.center {
+    display:flex;
+    flex-direction: column;
+    padding-right: 25px;
+    justify-content: space-between;
+
+}
+
+.right {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
