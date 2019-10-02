@@ -34,6 +34,11 @@ input:focus {
     color:white;
   }
 
+  textarea:focus {
+    border: solid black 1px;
+    color:white;
+  }
+
   select {
         background:  transparent;
         border: solid 1px white;
@@ -43,10 +48,11 @@ input:focus {
 
 }
 
-textarea{
+textarea {
     background:  transparent;
     border: solid 1px white;
-    color: black;
+    font-size: 14px;
+    color: white;
     width: 100%;
 
 }
